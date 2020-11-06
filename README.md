@@ -1,4 +1,4 @@
-## Frontend wallet.dao.casino
+## Provider tornado.cash
 
 Provider for tornado cash
 
@@ -19,16 +19,26 @@ Provider for tornado cash
 
 ## Install
 
-Install dependency @nuxtjs/provider
+Install dependency `@nuxtjs/provider`
 
 ```bash
   yarn add https://github.com/tornadocash/provider.git
 ```
 
+Add modules to `nuxt.config.js`
+
+```
+ modules: ['@nuxtjs/provider']
+```
+
+you also need to add the default rpc url `nuxt.config.js`
+
+```
+ provider: { rpcUrl: '' }
+```
+
 ## CLI
 
-- Project start: `yarn dev`
-- Running tests: `yarn test`
 - Linting: `yarn lint-fix`
 
 ## Style Guide
