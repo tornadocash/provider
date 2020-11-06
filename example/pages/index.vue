@@ -3,14 +3,30 @@
     <div>
       <Logo />
       <h1 class="title">
-        Example
+        address: {{ getAddress }}
+        <br>
+        network: {{ getNetwork }}
       </h1>
+      <button @click="handleConnectProvider">Connect</button>
     </div>
   </div>
 </template>
 
+
 <script>
-export default {}
+import { mapActions, mapGetters } from 'vuex'
+
+export default {
+  computed: {
+    ...mapGetters('provider', ['getAddress', 'getNetwork']),
+  },
+  methods: {
+    ...mapActions('provider', ['initProvider']),
+    handleConnectProvider() {
+      this.initProvider({ name: 'metamask', network: 'mainnet' })
+    }
+  }
+}
 </script>
 
 <style>
@@ -36,7 +52,7 @@ export default {}
     sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 32px;
   color: #35495e;
   letter-spacing: 1px;
 }

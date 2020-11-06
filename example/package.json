@@ -11,7 +11,8 @@
   "dependencies": {
     "@nuxtjs/provider": "https://github.com/tornadocash/provider.git",
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.6"
+    "nuxt": "^2.14.6",
+    "vuex": "^3.5.1"
   },
   "devDependencies": {}
 }
