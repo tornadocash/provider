@@ -1,6 +1,6 @@
 {
   "name": "@nuxtjs/provider",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Provider integration with Nuxt.js",
   "repository": "provider-module",
   "license": "MIT",
@@ -12,21 +12,21 @@
     "types/*.d.ts"
   ],
   "scripts": {
-    "lint": "eslint lib test",
-    "release": "standard-version && git push --follow-tags && npm publish"
+    "lint-fix": "eslint 'lib/**/*.js' --quiet --fix",
+    "release": "git push --follow-tags && npm publish"
   },
   "dependencies": {
     "web3": "^1.3.0",
     "web3-utils": "^1.3.0"
   },
   "devDependencies": {
-    "@babel/core": "latest",
-    "@babel/preset-env": "latest",
-    "@nuxtjs/eslint-config": "latest",
-    "babel-eslint": "latest",
-    "babel-jest": "latest",
-    "eslint": "latest",
-    "nuxt-edge": "latest",
-    "standard-version": "latest"
+    "@babel/core": "7.12.0",
+    "@babel/preset-env": "7.12.0",
+    "@nuxtjs/eslint-config": "4.0.0",
+    "babel-eslint": "9.0.0",
+    "eslint": "7.12.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2"
   }
 }

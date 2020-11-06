@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0d2cb1a-45f7-4ae6-a3c7-4649a212b52b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/vue.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/module.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuxt.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +45,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604604985514</updated>
-      <workItem from="1604604986572" duration="1150000" />
+      <workItem from="1604604986572" duration="1343000" />
+      <workItem from="1604657414247" duration="2744000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="367" y="-878" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604660590887">
+      <screen x="-57" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="367" y="-878" key="#com.intellij.execution.impl.EditConfigurationsDialog/-57.-1080.1920.1080/0.0.1792.1120@-57.-1080.1920.1080" timestamp="1604660590887" />
   </component>
 </project>

@@ -1,10 +1,17 @@
 module.exports = {
-  root: true,
-  parserOptions: {
-    parser: 'babel-eslint',
-    sourceType: 'module'
-  },
+  parser: 'babel-eslint',
   extends: [
-    '@nuxtjs'
-  ]
+    '@nuxtjs',
+    'plugin:prettier/recommended',
+  ],
+  rules: {
+    'no-useless-rename': [
+      'warn',
+      {
+        ignoreDestructuring: true,
+        ignoreImport: true,
+        ignoreExport: true,
+      },
+    ],
+  },
 }
