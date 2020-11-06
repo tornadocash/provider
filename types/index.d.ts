@@ -44,7 +44,7 @@ type GetBalanceParams = {
 }
 
 type WaitForTxReceiptParams = {
-  address: string
+  txHash: string
 }
 
 type BatchRequestParams = {
@@ -73,8 +73,8 @@ interface ProviderInstance {
   contractRequest(params: ContractRequestParams): Promise<TransactionReceipt>
   getBalance(params: GetBalanceParams): Promise<number>
   waitForTxReceipt(params: WaitForTxReceiptParams): Promise<TransactionReceipt>
-  batchRequest(params: WaitForTxReceiptParams): Promise<string[]>
-  checkNetworkVersion(params: WaitForTxReceiptParams): Promise<string>
+  batchRequest(params: BatchRequestParams): Promise<string[]>
+  checkNetworkVersion(): Promise<string>
   on(params: OnListenerParams): void
 }
 
