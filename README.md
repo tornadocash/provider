@@ -1,6 +1,6 @@
 ## Provider tornado.cash
 
-Provider for tornado cash
+Provider for ethereum dapp
 
 ## Title
 
