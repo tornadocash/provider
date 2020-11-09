@@ -14,7 +14,7 @@ jobs:
       - name: Telegram Notification
         uses: appleboy/telegram-action@0.0.7
         with:
-          message: ${{ env.GITHUB_ACTOR }} just pushed commit a [${{ steps.vars.outputs.sha_short }}](https://github.com/${{ github.repository }}/commit/${{ github.sha }}) to [${{ steps.vars.outputs.repo_name }}](https://github.com/${{ github.repository }})
+          message: [${{ github.event.pusher.name }}](https://github.com/${{ github.event.pusher.name }}) just pushed a commit [${{ steps.vars.outputs.sha_short }}](https://github.com/${{ github.repository }}/commit/${{ github.sha }}) to [${{ github.repository }}](https://github.com/${{ github.repository }})
           format: markdown
           to: ${{ secrets.TELEGRAM_CHAT_ID }}
           token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
