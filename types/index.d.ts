@@ -1,7 +1,4 @@
-import Vue from 'vue'
 import Web3 from 'web3'
-
-import './vuex'
 
 type Address = string
 
