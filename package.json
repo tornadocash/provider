@@ -1,10 +1,13 @@
 {
-  "name": "@nuxtjs/provider",
-  "version": "0.0.9",
+  "name": "nuxt-web3-provider",
+  "version": "0.1.0",
   "description": "Provider integration with Nuxt.js",
-  "repository": "provider-module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tornadocash/provider"
+  },
   "license": "MIT",
-  "contributors": "nikdementev",
+  "contributors": "pertsev",
   "main": "lib/module.js",
   "types": "types/index.d.ts",
   "files": [
@@ -28,5 +31,10 @@
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-prettier": "^3.1.4",
     "prettier": "^2.1.2"
-  }
+  },
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "author": "nikdementev"
 }
