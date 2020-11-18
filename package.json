@@ -1,6 +1,6 @@
 {
   "name": "nuxt-web3-provider",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Provider integration with Nuxt.js",
   "repository": {
     "type": "git",
