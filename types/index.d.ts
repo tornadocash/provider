@@ -76,6 +76,8 @@ interface ProviderInstance {
   batchRequest(params: BatchRequestParams): Promise<string[]>
   checkNetworkVersion(): Promise<string>
   getWeb3(rpcUrl: string): Web3
+  initWeb3(rpcUrl: string): Web3
+
   on(params: OnListenerParams): void
 }
 
