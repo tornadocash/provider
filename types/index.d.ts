@@ -61,11 +61,17 @@ interface ProviderOptions {
   blockGasLimit?: number,
 }
 
+type ProviderVersions = 'new' | 'old'
+
+type Config = {
+  version?: ProviderVersions
+}
+
 interface ProviderInstance {
   readonly web3: typeof Web3
   readonly config: ProviderOptions
 
-  initProvider(provider: unknown): Promise<Address>
+  initProvider(provider: unknown, config?: Config): Promise<Address>
   sendRequest(params: RequestParams): Promise<TransactionReceipt>
   contractRequest(params: ContractRequestParams): Promise<TransactionReceipt>
   getBalance(params: GetBalanceParams): Promise<number>
