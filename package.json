@@ -1,13 +1,13 @@
 {
   "name": "nuxt-web3-provider",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Provider integration with Nuxt.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/tornadocash/provider"
   },
   "license": "MIT",
-  "contributors": "pertsev",
+  "contributors": ["pertsev"],
   "main": "lib/module.js",
   "types": "types/index.d.ts",
   "files": [
@@ -19,7 +19,7 @@
     "release": "git push --follow-tags && npm publish"
   },
   "dependencies": {
-    "web3": "^1.3.0",
+    "web3": "^1.5.2",
     "web3-utils": "^1.3.0"
   },
   "devDependencies": {
